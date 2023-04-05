@@ -11,7 +11,6 @@ import {
 const Dashboard = (props) => {
     return (
         <Container maxWidth="lg" className="car-container">
-            {/* Change NAME to props.user.username */}
             <h4>Welcome, {props.user.username}</h4>
             <Table>
                 <TableHead>
